@@ -1,0 +1,22 @@
+/* .cardapio-desc {
+  
+} */
+.subtitle {
+  color:var(--cor-texto);
+  font-size: 3em;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.img-menu {
+  display: inline-block;  
+  border-radius: 50%;
+  border: 3px solid var(--cor-terciaria);
+  padding-top: 30px;
+}
+
+.wrapper-menu{
+  display: flex;
+  justify-content: space-around;
+}

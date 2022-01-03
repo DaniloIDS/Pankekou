@@ -1,0 +1,13 @@
+/* https://coolors.co/fff8f0-f1ab55-e48513-1f2233-0f111a */
+
+:root {
+  --cor-texto: #fff8f0;
+  --cor-principal: #e48513;
+  --cor-subtom: #F1AB55;
+  --cor-secundaria: #1f2233;
+  --cor-terciaria: #0f111a;
+}
+
+body {
+  background-color: var(--cor-terciaria);
+}

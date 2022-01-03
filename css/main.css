@@ -1,0 +1,23 @@
+@media screen and (max-width: 510px) {
+
+
+.header {
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-bottom: 1em;
+}
+.wrapper-icon {
+  flex-direction: column;
+}
+
+.header-links {
+  display: block;
+  margin-top: 1em;
+}
+
+video {
+  visibility: hidden;
+}
+
+}
