@@ -1,0 +1,49 @@
+.section-about_us{
+  position: relative;
+}
+.about-us{
+  background-image: url(../assets/bg_team.jpg);
+  background-attachment: fixed;
+  background-position: top center;
+  height: 100vh;
+  background-size: cover;
+  filter: brightness(25%);
+  opacity: 40%;
+  z-index: 1;
+}
+
+.text-about {
+  position: absolute;
+  font-size: 3em;
+  font-weight: 100;
+  letter-spacing: 3px;
+  bottom: 20%;
+  left: 10%;
+  right: 10%;
+  top: 40%;
+  color: #FFF;
+  filter: brightness(100%);
+  z-index: 2;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.text-about.title{
+  top: 10%;
+  margin: auto auto;
+  color: var(--cor-principal);
+  font-weight: bolder;
+}
+
+.about-icon {
+  position: absolute;
+  top: 20%;
+  margin: auto auto;
+  display: block;
+  padding: auto auto;
+
+}
+
+.text-emphasis{
+  color: var(--cor-principal);
+}
